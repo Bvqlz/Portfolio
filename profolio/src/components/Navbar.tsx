@@ -1,9 +1,8 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import type { MouseEvent } from "react";
 
 
 export default function Navbar() {
-    const location = useLocation();
 
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });

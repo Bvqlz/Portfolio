@@ -253,7 +253,7 @@ function ProjectCard({ project, onImageClick }: { project: Project; onImageClick
 }
 
 export default function Projects() {
-    const [hasAnimated, setHasAnimated] = useState(() => {
+    const [hasAnimated] = useState(() => {
         return !!sessionStorage.getItem('projectsAnimationPlayed');
     });
     

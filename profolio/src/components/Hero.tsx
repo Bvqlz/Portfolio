@@ -3,7 +3,7 @@ import '../styles/aurora.css';
 
 export default function Hero() {
 
-    const [hasAnimated, setHasAnimated] = useState(() => {
+    const [hasAnimated] = useState(() => {
         return !!sessionStorage.getItem('heroAnimationPlayed');
     });
 
