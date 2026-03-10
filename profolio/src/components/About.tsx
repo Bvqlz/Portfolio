@@ -26,7 +26,6 @@ export default function About() {
                             Hello! I am a software engineering student at FGCU. I'm currently working on building my portfolio and honing my skills in full-stack development.
                             Throughout my current projects, I've demonstrated my ability to tackle technical challenges which have taught me that I enjoy working on complex problems with real-world constraints.  
                         </p>
-                
                         <p className="mt-4">
                             Below are some of the technologies, tools, and frameworks that I have experience with.
                         </p>
@@ -35,9 +34,9 @@ export default function About() {
 
                 <div className={`space-y-12 ${hasAnimated ? '' : 'opacity-0'} ${animationClass}`} style={{ animationDelay: hasAnimated ? '0s' : '0.4s' }}>
                     <h3 className="text-3xl md:text-4xl font-bold text-white text-center font-display">Tech Stack</h3>
-                    <div className="flex overflow-x-auto pb-4 gap-4 md:grid md:grid-cols-3 md:gap-12 md:overflow-visible">
+                    <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-12">
                         
-                        <div className="flex flex-col items-center min-w-[140px] md:min-w-0">
+                        <div className="flex flex-col items-center">
                             <h4 className="text-sm md:text-xl font-bold text-blue-400 mb-6 border-b-2 border-blue-500/20 pb-2 w-full text-center font-mono">Languages</h4>
                             <div className="flex flex-wrap justify-center gap-2 md:gap-8">
                                 <svg className="w-8 h-8 md:w-12 md:h-12 transition-all duration-300 grayscale brightness-50 hover:brightness-100" viewBox="0 0 1052 1052"><path fill="#f0db4f" d="M0 0h1052v1052H0z"/><path d="M965.9 801.1c-7.7-48-39-88.3-131.7-125.9-32.2-14.8-68.1-25.399-78.8-49.8-3.8-14.2-4.3-22.2-1.9-30.8 6.9-27.9 40.2-36.6 66.6-28.6 17 5.7 33.1 18.801 42.8 39.7 45.4-29.399 45.3-29.2 77-49.399-11.6-18-17.8-26.301-25.4-34-27.3-30.5-64.5-46.2-124-45-10.3 1.3-20.699 2.699-31 4-29.699 7.5-58 23.1-74.6 44-49.8 56.5-35.6 155.399 25 196.1 59.7 44.8 147.4 55 158.6 96.9 10.9 51.3-37.699 67.899-86 62-35.6-7.4-55.399-25.5-76.8-58.4-39.399 22.8-39.399 22.8-79.899 46.1 9.6 21 19.699 30.5 35.8 48.7 76.2 77.3 266.899 73.5 301.1-43.5 1.399-4.001 10.6-30.801 3.199-72.101zm-394-317.6h-98.4c0 85-.399 169.4-.399 254.4 0 54.1 2.8 103.7-6 118.9-14.4 29.899-51.7 26.2-68.7 20.399-17.3-8.5-26.1-20.6-36.3-37.699-2.8-4.9-4.9-8.7-5.601-9-26.699 16.3-53.3 32.699-80 49 13.301 27.3 32.9 51 58 66.399 37.5 22.5 87.9 29.4 140.601 17.3 34.3-10 63.899-30.699 79.399-62.199 22.4-41.3 17.6-91.3 17.4-146.6.5-90.2 0-180.4 0-270.9z" fill="#323330"/></svg>
@@ -47,7 +46,7 @@ export default function About() {
                             </div>
                         </div>
 
-                        <div className="flex flex-col items-center min-w-[140px] md:min-w-0">
+                        <div className="flex flex-col items-center">
                             <h4 className="text-sm md:text-xl font-bold text-blue-400 mb-6 border-b-2 border-blue-500/20 pb-2 w-full text-center font-mono">Frameworks/Libraries </h4>
                             <div className="flex flex-wrap justify-center gap-2 md:gap-8">
                                 <svg className="w-8 h-8 md:w-12 md:h-12 transition-all duration-300 grayscale brightness-50 hover:brightness-100" viewBox="0 0 256 292"><defs><linearGradient id="nodejs__a" x1="68.188%" x2="27.823%" y1="17.487%" y2="89.755%"><stop offset="0%" stop-color="#41873F"/><stop offset="32.88%" stop-color="#418B3D"/><stop offset="63.52%" stop-color="#419637"/><stop offset="93.19%" stop-color="#3FA92D"/><stop offset="100%" stop-color="#3FAE2A"/></linearGradient><linearGradient id="nodejs__c" x1="43.277%" x2="159.245%" y1="55.169%" y2="-18.306%"><stop offset="13.76%" stop-color="#41873F"/><stop offset="40.32%" stop-color="#54A044"/><stop offset="71.36%" stop-color="#66B848"/><stop offset="90.81%" stop-color="#6CC04A"/></linearGradient><linearGradient id="nodejs__f" x1="-4.389%" x2="101.499%" y1="49.997%" y2="49.997%"><stop offset="9.192%" stop-color="#6CC04A"/><stop offset="28.64%" stop-color="#66B848"/><stop offset="59.68%" stop-color="#54A044"/><stop offset="86.24%" stop-color="#41873F"/></linearGradient><path id="nodejs__b" d="M134.923 1.832c-4.344-2.443-9.502-2.443-13.846 0L6.787 67.801C2.443 70.244 0 74.859 0 79.745v132.208c0 4.887 2.715 9.502 6.787 11.945l114.29 65.968c4.344 2.444 9.502 2.444 13.846 0l114.29-65.968c4.344-2.443 6.787-7.058 6.787-11.945V79.745c0-4.886-2.715-9.501-6.787-11.944L134.923 1.832Z"/><path id="nodejs__e" d="M134.923 1.832c-4.344-2.443-9.502-2.443-13.846 0L6.787 67.801C2.443 70.244 0 74.859 0 79.745v132.208c0 4.887 2.715 9.502 6.787 11.945l114.29 65.968c4.344 2.444 9.502 2.444 13.846 0l114.29-65.968c4.344-2.443 6.787-7.058 6.787-11.945V79.745c0-4.886-2.715-9.501-6.787-11.944L134.923 1.832Z"/></defs><path fill="url(#nodejs__a)" d="M134.923 1.832c-4.344-2.443-9.502-2.443-13.846 0L6.787 67.801C2.443 70.244 0 74.859 0 79.745v132.208c0 4.887 2.715 9.502 6.787 11.945l114.29 65.968c4.344 2.444 9.502 2.444 13.846 0l114.29-65.968c4.344-2.443 6.787-7.058 6.787-11.945V79.745c0-4.886-2.715-9.501-6.787-11.944L134.923 1.832Z"/><mask id="nodejs__d" fill="#fff"><use xlinkHref="#nodejs__b"/></mask><path fill="url(#nodejs__c)" d="M249.485 67.8 134.65 1.833c-1.086-.542-2.443-1.085-3.529-1.357L2.443 220.912c1.086 1.357 2.444 2.443 3.8 3.258l114.834 65.968c3.258 1.9 7.059 2.443 10.588 1.357L252.47 70.515c-.815-1.086-1.9-1.9-2.986-2.714Z" mask="url(#nodejs__d)"/><mask id="nodejs__g" fill="#fff"><use xlinkHref="#nodejs__e"/></mask><path fill="url(#nodejs__f)" d="M249.756 223.898c3.258-1.9 5.701-5.158 6.787-8.687L130.579.204c-3.258-.543-6.787-.272-9.773 1.628L6.786 67.53l122.979 224.238c1.628-.272 3.529-.815 5.158-1.63l114.833-66.239Z" mask="url(#nodejs__g)"/></svg>
@@ -59,7 +58,7 @@ export default function About() {
                             </div>
                         </div>
 
-                        <div className="flex flex-col items-center min-w-[140px] md:min-w-0">
+                        <div className="flex flex-col items-center">
                             <h4 className="text-sm md:text-xl font-bold text-blue-400 mb-6 border-b-2 border-blue-500/20 pb-2 w-full text-center font-mono">Tools</h4>
                             <div className="flex flex-wrap justify-center gap-2 md:gap-8">
                                 <svg className="w-8 h-8 md:w-12 md:h-12 transition-all duration-300 grayscale brightness-50 hover:brightness-100" viewBox="0 0 1024 1024" fill="none"><path fillRule="evenodd" clipRule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)" fill="#ffff"/></svg>
@@ -82,9 +81,17 @@ export default function About() {
                             <span className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-zinc-900 border-2 transition-all duration-300 border-blue-500 group-hover/timeline:border-zinc-700 group-hover/item:!border-blue-500 group-hover/item:animate-pulse-blue"></span>
                             <h4 className="text-xl font-bold text-white font-display">IT Intern - Bonita Springs Utilities</h4>
                             <p className="text-sm mb-2 font-mono transition-colors duration-300 text-blue-400 group-hover/timeline:text-zinc-500 group-hover/item:!text-blue-400">January 2026 - Present</p>
-                            <p className="text-gray-400">
-                                Currently working in helping their IT department with various tasks.
-                            </p>
+                            <ul className="text-gray-400 list-disc ml-5 space-y-2">
+                                <li>
+                                    Automated an ArcGIS Survey123 data pipeline using Python, pandas, and openpyxl to extract, merge, and format multi-sheet reports, eliminating <b>100+ hours</b> of manual data entry for FEMA reimbursement tracking.
+                                </li>
+                                <li>
+                                    Analyzed and troubleshot off-the-shelf applications to identify problem areas and resolve technical issues.
+                                </li>
+                                <li>
+                                    Configured and maintained hardware and software infrastructure while resolving technical user issues.
+                                </li>
+                            </ul>
                         </div>
                         
                         <div className="relative group/item">

@@ -28,8 +28,8 @@ const PROJECTS: Project[] = [
         images: ["/wayfinder/way1.jpg", "/wayfinder/way2.jpg", "/wayfinder/way3.jpg"]
     },
     {
-        title: "Full-Stack Todo",
-        description: "A full-stack to-do application built in C++.",
+        title: "Full-Stack C++ Task Manager",
+        description: "A full-stack to-do application built in C++ Crow.",
         tags: ["C++", "Crowcpp", "Javascript"],
         githubUrl: "https://github.com/Bvqlz/Todo",
         images: ["/todo/todo1.jpg", "/todo/todo2.jpg", "/todo/todo3.jpg"]
@@ -47,6 +47,13 @@ const PROJECTS: Project[] = [
         tags: ["Flask", "React", "ORTools", "Javascript"],
         githubUrl: "https://github.com/Bvqlz/GridWatch",
         images: ["/gridwatch/gw1.jpg", "/gridwatch/gw2.jpg", "/gridwatch/gw3.jpg", "/gridwatch/gw4.jpg", "/gridwatch/gw5.jpg"]
+    },
+    {
+        title: "Portfolio Website",
+        description: "The very website you are on!",
+        tags: ["React", "Tailwind", "Typescript"],
+        githubUrl: "https://github.com/Bvqlz/Portfolio",
+        images: ["/portfolio/port1.jpg", "/portfolio/port2.jpg", "/portfolio/port3.jpg"]
     }
 ];
 
