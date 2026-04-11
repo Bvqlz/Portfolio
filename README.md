@@ -1,5 +1,5 @@
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Bvqlz/Portfolio/badge)](https://scorecard.dev/viewer/?uri=github.com/Bvqlz/Portfolio)
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/XXXX/badge)](https://www.bestpractices.dev/projects/XXXX)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12396/badge)](https://www.bestpractices.dev/projects/12396)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
 Hello, this the repo for my profolio website. Please take a look at the link below. 
